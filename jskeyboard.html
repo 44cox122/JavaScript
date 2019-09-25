@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="morgan">
+		<title>Morgan's First Page!</title>
+		<link rel="stylesheet" href="mainStyle.css">
+		<link rel="stylesheet" href="jsmouse.css">
+		<script src="jskeyboard.js"></script>  
+		
+	</head>
+	
+	<body onload="draw()">
+		<header id="header">
+			<h1>Welcome to Morgan's Page</h1>
+			<hr>
+		</header>
+		
+		
+		<div class="nav-bar">
+			<a class="current" href="#header">Home
+			<span class="tooltiptext">Home button</span>
+			</a>
+			<a href="aboutme/aboutme.html">About Me</a>
+			<div class="dropdown">
+				<a class="dropbtn">CSS Tutorials</a>
+				<div class="dropdown-content">
+					<a href="Project2_html/turtlecoders.html">Turtle Coders</a>
+					<a href="Project2_html/posEx.html">Position Example</a>
+					<a href="Project2_html/floatExBoxes.html">Box Model</a>
+					<a href="Project2_html/clearEx.html" target="_blank">Float and Clear</a>
+				</div>
+			</div>
+		</div>
+		
+		<hr>
+
+		
+		<article class="js-module" onkeydown="onkeydown()">
+			<img id="car" src="car.png">
+			<h2>Here is my canvas</h2>
+			<canvas id="pictureCanvas" width="400px" height="500px"></canvas>
+        
+		</article>
+		
+		<footer>
+				<p>My email for questions:</p>
+				<a href="mailto:mdcox@mymail.mines.edu">mdcox@mymail</a>
+		</footer>
+	
+	</body>
+</html>	
